@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luca De Benedetti | Estudiante de Programación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#inicio" class="logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="inspiracion.html" class="link-inspiracion">Inspiración</a></li>
+      </ul>
+      <button id="btn-tema" aria-label="Cambiar tema">🌙 Modo Oscuro</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <img src="fotoperfil.jpg" alt="Foto de perfil de Luca De Benedetti" class="avatar" onerror="this.src='https://ui-avatars.com/api/?name=Luca+De+Benedetti&background=0f172a&color=38bdf8&size=200'">
+        <span class="badge-titulo">Estudiante de Tecnicatura en Programación • EEST N°5</span>
+        <h1>Hola, soy <span class="resaltado">Luca De Benedetti</span></h1>
+        <p class="frase-hero">
+          Desarrollo aplicaciones web dinámicas, programo en diferentes lenguajes de programación, conexiones con bases de datos, conexiones de router y instalacion de camaras.
+        </p>
+        <div class="hero-botones">
+          <a href="#proyectos" class="btn-primario">Ver mis proyectos</a>
+          <a href="#contacto" class="btn-secundario">Contactarme</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="seccion">
+      <div class="contenedor">
+        <h2>Sobre mí</h2>
+        <div class="sobre-mi-card">
+          <p>
+            Soy estudiante de 6° año de la Tecnicatura en Programación en la EEST N°5. Me gusta mucho lo que es el desarrollo de paginas web por las cosas y las funcionalidad que le podes dar a un sitio web, y también me gusta mucho la programación en general, ya que me permite crear soluciones a problemas del dia a dia. 
+          </p>
+          <p>
+            A lo largo de la tecnicatura participé en proyectos que van desde tiendas web dinámicas y calculadoras interactivas hasta sistemas automatizados. Busco seguir creciendo como desarrollador aportando soluciones prácticas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <div class="contenedor">
+        <h2>Proyectos</h2>
+        <p class="subtitulo-seccion">Trabajos desarrollados durante la tecnicatura con acceso directo.</p>
+
+        <div class="proyectos-grid">
+          <article class="proyecto-card oculto">
+            <img src="miniaturawebdinamica.JPG" alt="Captura de Tienda Dinámica" onerror="this.src='https://placehold.co/600x340/1e293b/38bdf8?text=Tienda+Dinamica+JS'">
+            <div class="proyecto-info">
+              <span class="anio">Noviembre 2026 • Desarrollo Web Dinámico</span>
+              <h3>Tienda Dinámica con Carrito y Carrusel</h3>
+              <p>E-commerce interactivo con carrusel de productos, carrito de compras flotante y cálculo automático del total.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://webdinamicadf.netlify.app" target="_blank" rel="noopener" class="btn-link">Ver página en vivo →</a>
+            </div>
+          </article>
+
+          <article class="proyecto-card oculto">
+            <img src="miniaruracalculadora.JPG" alt="Captura de Calculadora JS" onerror="this.src='https://placehold.co/600x340/1e293b/38bdf8?text=Calculadora+JS'">
+            <div class="proyecto-info">
+              <span class="anio">Septiembre 2026 • Lógica JavaScript</span>
+              <h3>Calculadora Interactiva con Funciones JS</h3>
+              <p>Calculadora web desarrollada implementando funciones reutilizables en JavaScript para el manejo de operaciones matemáticas y eventos de pantalla.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://calculadoradf.netlify.app" target="_blank" rel="noopener" class="btn-link">Ver página en vivo →</a>
+            </div>
+          </article>
+
+          <article class="proyecto-card oculto">
+            <img src="miniaturaecomerse.JPG" alt="Captura de Tienda de Ropa" onerror="this.src='https://placehold.co/600x340/1e293b/38bdf8?text=Tienda+de+Ropa+E-commerce'">
+            <div class="proyecto-info">
+              <span class="anio">Mayo 2026 • Maquetación Web</span>
+              <h3>Tienda de Ropa — E-commerce Personal</h3>
+              <p>Sitio web de comercio electrónico enfocado en indumentaria, diseñado con estructura semántica y diseño responsivo adaptado a dispositivos móviles.</p>
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <a href="https://ecomersedf.netlify.app" target="_blank" rel="noopener" class="btn-link">Ver página en vivo →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="seccion">
+      <div class="contenedor">
+        <h2>Habilidades y Tecnologías</h2>
+        <div class="habilidades-grid">
+          <div class="habilidad-grupo">
+            <h3>Desarrollo Web</h3>
+            <div class="tags-habilidades">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Diseño Responsivo</span>
+              <span>PHP</span>
+            </div>
+          </div>
+
+          <div class="habilidad-grupo">
+            <h3>Programación y Datos</h3>
+            <div class="tags-habilidades">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>MySQL</span>
+              <span>C#/C++</span>
+            </div>
+          </div>
+
+          <div class="habilidad-grupo">
+            <h3>Redes y Hardware</h3>
+            <div class="tags-habilidades">
+              <span>Arduino</span>
+              <span>ESP32</span>
+              <span>Packet Tracer</span>
+              <span>Subnetting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <p class="subtitulo-seccion">¿Tenés una propuesta o consulta? Completá el formulario y te respondo a la brevedad.</p>
+
+        <form id="form-contacto" class="formulario" action="https://formspree.io/f/moedwnyj" method="POST" novalidate>
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+          </div>
+
+          <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje (mínimo 10 caracteres)..." required></textarea>
+          </div>
+
+          <!-- Contenedor para mensajes de validación sin usar alert() -->
+          <div id="mensaje-estado" class="estado-form" aria-live="polite"></div>
+
+          <button type="submit" class="btn-primario btn-enviar">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor footer-content">
+      <p>© 2026 Luca De Benedetti • Tecnicatura en Programación (6°2 - EEST N°5)</p>
+      <a href="inspiracion.html" class="footer-link">¿En qué me inspiré? →</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
